@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport", content="width=device-width, initial-scale=1.0">
+	<title>AbhikaAtmaja</title>
+	<link rel="icon" type="image/x-icon" href="Asset/images/PNG/Logo.png">
+
+	<!--Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="Style1.css">
+	<link rel="stylesheet" type="text/css" href="Asset/lightbox css/lightbox.min.css">
+
+
+	<!--Script-->
+	<script type="text/javascript" src="JavaScript/lightbox-plus-jquery.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
+
+	<!-- font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/f6dbaff0d6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<!-- The Header -->
+	<section class="Csub-header">
+		<nav>
+			<a href="index.html"><img src="Asset/images/PNG/Logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fas fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Gallery.html">GALLERY</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<h1 class="head-about">Contact Me</h1>
+
+
+
+	</section>
+
+	<!-- The Body -->
+
+	<section class="location">
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505883.03621299897!2d110.14408841022963!3d-7.872953985001822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5787bd5b6bc5%3A0x6d1b92b2cac8b3f0!2sDaerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1639838142684!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+	</section>
+
+
+
+
+	<section class="contact-me">
+
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fab fa-instagram"></i>
+					<span>
+						<h5>Abhika_Atmaja</h5>
+						<p>Contact me on Instagram</p>
+					</span>
+				</div>
+
+				<div>
+					<i class="far fa-envelope"></i>
+					<span>
+						<h5>abhikaatmaja@gmail.com</h5>
+						<p>Email me your query</p>
+					</span>
+				</div>
+				
+			</div>
+
+			<div class="contact-col">
+
+				<form name="Contact Form" action="" method="POST" netlify>
+					<input name="name" type="text"  placeholder="Enter Your Name" required="">
+					<input name="email" type="email"  placeholder="Enter Email Addres" required="">
+					<input name="subject" type="text"  placeholder="Enter Your Subject" required="">
+
+					<textarea name="message" rows="8"  placeholder="Message" required=""></textarea>
+
+					<button type="submit" class="btn">Send Message</button>
+				</form>
+
+
+				
+			</div>
+			
+		</div>
+
+
+		
+	</section>
+
+
+
+
+
+
+
+
+	<!-- The Footer -->
+
+	<section class="footer">
+		<h4>About Me</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed lorem eget turpis gravida placerat.<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend maximus euismod. Proin quis tincidunt justo.</p>
+		<div class="icons">
+			<a href="https://www.instagram.com/abhika_atmaja/?hl=id" target="blank"><i class="fab fa-instagram"></i></a>
+		</div>
+
+		<!--<p>Made by Gusti Komang Abhika Atmaja </p>-->
+		<br>
+		<p><i class="far fa-copyright"></i> Gusti Komang Abhika Atmaja</p>
+		
+
+	</section>
+
+
+<!--JavaScript Toogle menu -->
+	<script >
+		 var navlinks = document.getElementById("navlinks");
+
+		 function showmenu() {
+		 	navlinks.style.right = "0";
+		 }
+
+		 function hidemenu() {
+		 	navlinks.style.right = "-200px";
+		 }
+
+	</script>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
