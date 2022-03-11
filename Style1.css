@@ -514,6 +514,20 @@ padding-bottom: 50px;
 	box-sizing: border-box;
 }
 
+/*Comment style*/
+
+.comment{
+	padding: 15px;
+	border-top: 4px solid #222;
+}
+
+.comment h5{
+	font-size: 20px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
 
 
 
