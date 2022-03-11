@@ -517,12 +517,14 @@ padding-bottom: 50px;
 /*Comment style*/
 
 .comment{
-	padding: 15px;
+	padding: 8px;
 	border-top: 2px solid #222;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .comment h5{
-	font-size: 20px;
+	font-size: 25px;
 	margin-bottom: 25px;
 	margin-top: 20px;
 	font-weight: 600;
