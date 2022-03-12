@@ -589,7 +589,7 @@ padding-bottom: 50px;
 		padding: 30px;
 	}
 
-	.mobicons .fa, .mobicons .fab {
+	.mobicons .fa, .mobicons .fab{
 		color: deepskyblue;
 		margin: 0 0px;
 		cursor: pointer;
@@ -597,6 +597,11 @@ padding-bottom: 50px;
 		font-size: 30px;
 		display: flex;
 		justify-content: space-around;
+		cursor: pointer;
+	}
+
+	.mobicons a {
+		text-decoration: none;
 	}
 
 
