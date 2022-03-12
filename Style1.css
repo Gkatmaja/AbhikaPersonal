@@ -573,6 +573,8 @@ padding-bottom: 50px;
 
 	.nav-links ul li a{
 		font-weight: bolder;
+		padding-left: 30%;
+		padding-right: 40%;
 	}
 
 	nav .fas{
@@ -586,6 +588,18 @@ padding-bottom: 50px;
 	.nav-links ul{
 		padding: 30px;
 	}
+
+	.mobicons .fa, .mobicons .fab {
+		color: deepskyblue;
+		margin: 0 0px;
+		cursor: pointer;
+		padding: 18px 0;
+		font-size: 30px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+
 
 
 	.row{
