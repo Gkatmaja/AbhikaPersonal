@@ -9,7 +9,7 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/PNG/Background.png);
+	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/img1.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -322,7 +322,7 @@ padding-bottom: 50px;
 .Gsub-header{
 	height: 50vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Img20.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img20.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -354,7 +354,7 @@ padding-bottom: 50px;
 .Asub-header{
 	height: 50vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Img7.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img7.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -433,7 +433,7 @@ padding-bottom: 50px;
 .Csub-header{
 	height: 50vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Img22.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img22.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -556,7 +556,11 @@ padding-bottom: 50px;
 
 	.nav-links{
 		position: fixed;
-		background: deepskyblue;
+		/*background: deepskyblue;*/
+		/*background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Img14.jpg);*/
+		background-image: var(--imgitem);
+		background-position: center;
+		background-size: cover;
 		height: 100vh;
 		width: 200px;
 		top: 0;

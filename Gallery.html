@@ -165,17 +165,31 @@
 
 <!--JavaScript Toogle menu -->
 	<script >
-		 var navlinks = document.getElementById("navlinks");
+		const IMG =[
+			'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img14.jpg)',
+			'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img9.jpg)',
+			'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img2.jpg)',
+			'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img13.jpg)',
+			'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img17.jpg)',
+			'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img19.jpg)',
+			'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img18.jpg)'
+		];
 
-		 function showmenu() {
-		 	navlinks.style.right = "0";
-		 }
+		var navlinks = document.getElementById("navlinks");
+		var item = 'linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img9.jpg)';
 
-		 function hidemenu() {
-		 	navlinks.style.right = "-200px";
-		 }
+		function showmenu() {
+			navlinks.style.setProperty('--imgitem', item);
+			navlinks.style.right = "0";
+		}
+
+		function hidemenu() {
+			navlinks.style.right = "-200px";
+			item = IMG[parseInt(Math.random() * IMG.length)];
+		}
 
 	</script>
+	
 
 <!-- Gallery Filter Logic -->
 	<script type="text/javascript">
