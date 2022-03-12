@@ -558,7 +558,7 @@ padding-bottom: 50px;
 		position: fixed;
 		/*background: deepskyblue;*/
 		/*background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Img14.jpg);*/
-		background-image: var(--imgitem);
+		background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), var(--imgitem);
 		background-position: center;
 		background-size: cover;
 		height: 100vh;
