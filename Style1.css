@@ -557,8 +557,8 @@ padding-bottom: 50px;
 	.nav-links{
 		position: fixed;
 		/*background: deepskyblue;*/
-		/*background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Img14.jpg);*/
-		background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), var(--imgitem);
+		background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(Asset/images/Compressed/Img14.jpg);
+		/*background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), var(--imgitem);*/
 		background-position: center;
 		background-size: cover;
 		height: 100vh;
