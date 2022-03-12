@@ -135,30 +135,36 @@
 
 <!--JavaScript Toogle menu -->
 	<script >
-	//		const IMG =[
-	//			'url(Asset/images/Img14.jpg)',
-	//			'url(Asset/images/Img9.jpg)',
-	//			'url(Asset/images/Img2.jpg)',
-	//			'url(Asset/images/Img13.jpg)',
-	//			'url(Asset/images/Img17.jpg)',
-	//			'url(Asset/images/Img19.jpg)',
-	//			'url(Asset/images/Img18.jpg)'
-	//		];
-	
-		 var navlinks = document.getElementById("navlinks");
-	//	 var item = 'url(Asset/images/Img9.jpg)';
+		const IMG =[
+			'url(https://d33wubrfki0l68.cloudfront.net/asset/images/compressed/8acf194cdf282ea598bf28b0149cdbb49252edb3/img14.jpg)',
+			'url(https://d33wubrfki0l68.cloudfront.net/48c24f3dd13026b17c01dc62593c66ce2f8f43cf/336e7/asset/images/compressed/img9.jpg)',
+			'url(https://d33wubrfki0l68.cloudfront.net/09453abd6e8ea00d33bb98f9399a28ee64cbfca2/38866/asset/images/compressed/img2.jpg)',
+			'url(https://d33wubrfki0l68.cloudfront.net/c2700c0cc615a620579f856b83cef285446c7089/205b9/asset/images/compressed/img13.jpg)',
+			'url(https://d33wubrfki0l68.cloudfront.net/25d54dbb52f08cc44a3c25bf5fd173823bc47f05/fcdaf/asset/images/compressed/img19.jpg)',
+			'url(https://d33wubrfki0l68.cloudfront.net/bb17fbbc5fc0ceec92e97179ea22e157803cfa74/e59b0/asset/images/compressed/img17.jpg)',
+			'url(https://d33wubrfki0l68.cloudfront.net/7adccc2250df9884768c365005c9069ec7da724e/188d7/asset/images/compressed/img18.jpg)'
+		];
 
-		 function showmenu() {
-			/*navlinks.style.setProperty('--imgitem', item);8*/
-			 navlinks.style.right = "0";
-		 }
+		var navlinks = document.getElementById("navlinks");
+		var item = 'url(https://d33wubrfki0l68.cloudfront.net/7adccc2250df9884768c365005c9069ec7da724e/188d7/asset/images/compressed/img18.jpg)';
+		var no = -1;
 
-		 function hidemenu() {
-			 navlinks.style.right = "-200px";
+		function showmenu() {
+			navlinks.style.setProperty('--imgitem', item);
+			navlinks.style.right = "0";
+			if (no == 6){
+				no = -1;
+			}
+			no += 1;
+		}
+
+		function hidemenu() {
+			navlinks.style.right = "-200px";
 			/*item = IMG[parseInt(Math.random() * IMG.length)];*/
-		 }
-	
-</script>
+			item = IMG[no];
+		}
+
+	</script>
 
 
 </body>

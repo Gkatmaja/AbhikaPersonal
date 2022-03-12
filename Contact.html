@@ -163,16 +163,22 @@
 		];
 
 		 var navlinks = document.getElementById("navlinks");
-		 var item = 'url(https://d33wubrfki0l68.cloudfront.net/09453abd6e8ea00d33bb98f9399a28ee64cbfca2/38866/asset/images/compressed/img2.jpg)';
+		 var item = 'url(https://d33wubrfki0l68.cloudfront.net/7adccc2250df9884768c365005c9069ec7da724e/188d7/asset/images/compressed/img18.jpg)';
+		 var no = -1;
 
 		 function showmenu() {
 			navlinks.style.setProperty('--imgitem', item);
 		 	navlinks.style.right = "0";
+			if (no == 6){
+				no = -1;
+			}
+			no += 1;
 		 }
 
 		 function hidemenu() {
 		 	navlinks.style.right = "-200px";
-			item = IMG[parseInt(Math.random() * IMG.length)];
+			/*item = IMG[parseInt(Math.random() * IMG.length)];*/
+			item = IMG[no];
 		 }
 
 	</script>
