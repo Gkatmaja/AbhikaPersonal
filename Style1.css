@@ -151,7 +151,7 @@ padding-bottom: 50px;
 	padding-bottom: 15px;
 	border-radius: 5px;
 	filter: brightness(0.7);
-	transition: 0.65s;
+	transition: 0.15s;
 }
 
 .container .box .dream img:hover{
@@ -239,7 +239,6 @@ padding-bottom: 50px;
 .footer a{
 	text-decoration: none;
 	color: black;
-	font-size: 20px;
 }
 
 .icons .fab, .icons .fa{
@@ -247,6 +246,12 @@ padding-bottom: 50px;
 	margin: 0 13px;
 	cursor: pointer;
 	padding: 18px 0;
+	font-size: 30px;
+	transition: 0.8s;
+}
+
+.icons .fab:hover, .icons .fa:hover{
+	transform: scale(1.2);
 }
 
 .far fa-copyright{
@@ -504,6 +509,11 @@ padding-bottom: 50px;
 	color: black;
 	font-weight: 400;
 	text-decoration: none;
+	transition: 0.8s;
+}
+
+.contact-col div h5:hover{
+	font-size: 22px;
 }
 
 .contact-col input, .contact-col textarea{
