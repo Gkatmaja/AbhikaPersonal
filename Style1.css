@@ -661,13 +661,13 @@ padding-bottom: 50px;
 
 
 	.Resbtn{
-		border: 1px solid black;
+		border: 1px solid var(--secondary-color);
 		background: none;
 		padding: 10px 18px;
 		font-size: 15px;
 		cursor: pointer;
 		margin: 40px 0px 70px 0px;
-		color: black;
+		color: var(--secondary-color);
 		transition: 0.7s;
 		position: relative;
 		overflow: relative;
@@ -694,13 +694,13 @@ padding-bottom: 50px;
 
 @media (max-width: 467px){
 	.Resbtn{
-		border: 1px solid black;
+		border: 1px solid var(--secondary-color);
 		background: none;
 		padding: 4px 6px;
 		font-size: 13px;
 		cursor: pointer;
 		margin: 10px 0px 15px 0px;
-		color: black;
+		color: var(--secondary-color);
 		transition: 0.7s;
 		position: relative;
 		overflow: relative;
