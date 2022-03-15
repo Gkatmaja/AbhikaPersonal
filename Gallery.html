@@ -47,6 +47,7 @@
 					<li><a href="About.html">ABOUT</a></li>
 					<li><a href="Gallery.html">GALLERY</a></li>
 					<li><a href="Contact.html">CONTACT</a></li>
+					<li><i class="fa fa-moon-o" id="themecolor"></i></li>
 				</ul>
 				<div class="mobicons">
 					<a href="https://www.instagram.com/abhika_atmaja/?hl=id" target="blank"><i class="fab fa-instagram"></i></a>
@@ -187,6 +188,7 @@
 		];
 
 		var navlinks = document.getElementById("navlinks");
+		var icon = document.getElementById("themecolor");
 		var item = 'url(https://d33wubrfki0l68.cloudfront.net/7adccc2250df9884768c365005c9069ec7da724e/188d7/asset/images/compressed/img18.jpg)';
 		var no = -1;
 
@@ -203,6 +205,16 @@
 			navlinks.style.right = "-200px";
 			/*item = IMG[parseInt(Math.random() * IMG.length)];*/
 			item = IMG[no];
+		}
+
+
+		icon.onclick = function(){
+			document.body.classList.toggle("dark-theme");
+			if(document.body.classList.contains("dark-theme")){
+				icon.className = "fa fa-sun-o"
+			}else{
+				icon.className = "fa fa-moon-o"
+			}
 		}
 
 	</script>
