@@ -57,7 +57,7 @@
 		</nav>
 
 		<div class="Text-Box">
-			<h1>Welcome To My Personal Website</h1>
+			<h1 id="title">Welcome To My Personal Website</h1>
 			<p>My name is Abhi and this is my first dedicated Website development project. You can see all of my instagram photo here. And also, there are many features of this website. Just explore and try it! You can reach me via Instagram, Github, Email, or even this website. Just go to the contact page.</p>
 			
 
@@ -155,6 +155,7 @@
 		var navlinks = document.getElementById("navlinks");
 		var icon = document.getElementById("themecolor");
 		var item = 'url(https://d33wubrfki0l68.cloudfront.net/7adccc2250df9884768c365005c9069ec7da724e/188d7/asset/images/compressed/img18.jpg)';
+		var title = document.getElementById("title");
 		var no = -1;
 
 		function showmenu() {
@@ -178,6 +179,15 @@
 				icon.className = "fa fa-sun-o"
 			}else{
 				icon.className = "fa fa-moon-o"
+			}
+		}
+
+
+		title.onclick = function(){
+			if (title.innerHTML == "Welcome To My Personal Website"){
+				title.innerHTML = "Its made by me, Abhika-Atmaja";
+			}else{
+				title.innerHTML = "Welcome To My Personal Website"
 			}
 		}
 
